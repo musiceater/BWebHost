@@ -1,0 +1,843 @@
+dn: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: Administrator
+	description: Built-in account for administering the computer/domain
+	distinguishedName: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609054338.0Z
+	whenChanged: 20100702063013.0Z
+	uSNCreated: 8194
+	memberOf: CN=Group Policy Creator Owners,CN=Users,DC=nas-test,DC=ad
+	memberOf: CN=Domain Admins,CN=Users,DC=nas-test,DC=ad
+	memberOf: CN=Enterprise Admins,CN=Users,DC=nas-test,DC=ad
+	memberOf: CN=Schema Admins,CN=Users,DC=nas-test,DC=ad
+	memberOf: CN=Domain Controllers,CN=Users,DC=nas-test,DC=ad
+	memberOf: CN=Administrators,CN=Builtin,DC=nas-test,DC=ad
+	uSNChanged: 45107
+	name: Administrator
+	objectGUID: óI…¨aSüCâ{zúÃØÀ†
+	userAccountControl: 66048
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 129423298759687500
+	lastLogoff: 0
+	lastLogon: 129429286275312500
+	pwdLastSet: 129221881280156250
+	primaryGroupID: 513
+	objectSid: 
+	adminCount: 1
+	accountExpires: 9223372036854775807
+	logonCount: 464
+	sAMAccountName: Administrator
+	sAMAccountType: 805306368
+	managedObjects: DC=nas-test,DC=ad
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	unixUserPassword: ABCD!efgh12345$67890
+	uid: Administrator
+	msSFU30Name: Administrator
+	msSFU30NisDomain: nas-test
+	uidNumber: 10009
+	gidNumber: 10003
+	unixHomeDirectory: /home/Administrator
+	loginShell: /bin/sh
+
+dn: CN=bart,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: bart
+	distinguishedName: CN=bart,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20101220013332.0Z
+	whenChanged: 20110223084950.0Z
+	uSNCreated: 127548
+	uSNChanged: 844359
+	name: bart
+	objectGUID: >ﬁÈLÛÔêDúç›"((«
+	objectSid: 
+	sAMAccountName: bart
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	msSFU30Name: bart
+	msSFU30NisDomain: nas-test
+	gidNumber: 10005
+
+dn: CN=bartest1,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest1
+	distinguishedName: CN=bartest1,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102930.0Z
+	whenChanged: 20110223103329.0Z
+	uSNCreated: 894542
+	uSNChanged: 894602
+	name: bartest1
+	objectGUID: ıÌ71ì»µCº©⁄œÄU°∆
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305702187500
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest1
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	unixUserPassword: ABCD!efgh12345$67890
+	uid: bartest1
+	msSFU30Name: bartest1
+	msSFU30NisDomain: nas-test
+	uidNumber: 654347
+	gidNumber: 10005
+	unixHomeDirectory: /home/bartest1
+	loginShell: /bin/sh
+
+dn: CN=bartest10,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest10
+	distinguishedName: CN=bartest10,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102934.0Z
+	whenChanged: 20110223102935.0Z
+	uSNCreated: 894596
+	uSNChanged: 894600
+	name: bartest10
+	objectGUID: ôaô3Sh!Jñ¥fÛ™ K
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305752187500
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest10
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest2,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest2
+	distinguishedName: CN=bartest2,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102930.0Z
+	whenChanged: 20110223102930.0Z
+	uSNCreated: 894548
+	uSNChanged: 894552
+	name: bartest2
+	objectGUID: Î6
+H!<•C¥y¬cHá∞
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305708750000
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest2
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest3,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest3
+	distinguishedName: CN=bartest3,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102931.0Z
+	whenChanged: 20110223102931.0Z
+	uSNCreated: 894554
+	uSNChanged: 894558
+	name: bartest3
+	objectGUID: ;NΩDó,°|W‚L
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305713906250
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest3
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest4,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest4
+	distinguishedName: CN=bartest4,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102931.0Z
+	whenChanged: 20110223102932.0Z
+	uSNCreated: 894560
+	uSNChanged: 894564
+	name: bartest4
+	objectGUID: .…)2ºÛI∂ˇ¶	Z◊
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305719531250
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest4
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest5,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest5
+	distinguishedName: CN=bartest5,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102932.0Z
+	whenChanged: 20110223102932.0Z
+	uSNCreated: 894566
+	uSNChanged: 894570
+	name: bartest5
+	objectGUID: 6ä‹·®·Nå+»Û≥®3¨
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305724843750
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest5
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest6,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest6
+	distinguishedName: CN=bartest6,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102932.0Z
+	whenChanged: 20110223102933.0Z
+	uSNCreated: 894572
+	uSNChanged: 894576
+	name: bartest6
+	objectGUID: ‚©aZ5HÇ=<ÊŸ≥—>
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305730000000
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest6
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest7,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest7
+	distinguishedName: CN=bartest7,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102933.0Z
+	whenChanged: 20110223102933.0Z
+	uSNCreated: 894578
+	uSNChanged: 894582
+	name: bartest7
+	objectGUID: MëÃ‚Î€J±∂≈ÏOUﬂ
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305735312500
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest7
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest8,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest8
+	distinguishedName: CN=bartest8,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102933.0Z
+	whenChanged: 20110223102934.0Z
+	uSNCreated: 894584
+	uSNChanged: 894588
+	name: bartest8
+	objectGUID: 3“›™ÿQB@û!Jiü_Ñ
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305740468750
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest8
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=bartest9,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: bartest9
+	distinguishedName: CN=bartest9,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110223102934.0Z
+	whenChanged: 20110223102934.0Z
+	uSNCreated: 894590
+	uSNChanged: 894594
+	name: bartest9
+	objectGUID: ˜¢e)ˇìJîŸTºCbS
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129429305745468750
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: bartest9
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+
+dn: CN=Cert Publishers,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Cert Publishers
+	description: Members of this group are permitted to publish certificates to the Active Directory
+	distinguishedName: CN=Cert Publishers,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060537.0Z
+	whenChanged: 20110211023015.0Z
+	uSNCreated: 12338
+	uSNChanged: 747598
+	name: Cert Publishers
+	objectGUID: Õ…õMR1Hò¨÷öÔ∆
+	objectSid: 
+	sAMAccountName: Cert Publishers
+	sAMAccountType: 536870912
+	groupType: -2147483644
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	gidNumber: 10000
+
+dn: CN=Domain Admins,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Domain Admins
+	description: Designated administrators of the domain
+	member: CN=voice,CN=Users,DC=nas-test,DC=ad
+	member: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	distinguishedName: CN=Domain Admins,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060537.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12341
+	memberOf: CN=Administrators,CN=Builtin,DC=nas-test,DC=ad
+	uSNChanged: 747601
+	name: Domain Admins
+	objectGUID: îz⁄0‚8ALâùVƒúèõg
+	objectSid: 
+	adminCount: 1
+	sAMAccountName: Domain Admins
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	gidNumber: 10007
+
+dn: CN=Domain Computers,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Domain Computers
+	description: All workstations and servers joined to the domain
+	distinguishedName: CN=Domain Computers,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060536.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12326
+	uSNChanged: 747602
+	name: Domain Computers
+	objectGUID: ˛òÿƒyâN¨N˘•>ÂF
+	objectSid: 
+	sAMAccountName: Domain Computers
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	gidNumber: 10008
+
+dn: CN=Domain Controllers,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Domain Controllers
+	description: All domain controllers in the domain
+	member: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	distinguishedName: CN=Domain Controllers,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060536.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12329
+	uSNChanged: 747603
+	name: Domain Controllers
+	objectGUID: ·∏-_§ŒJM∑E√úä
+	objectSid: 
+	adminCount: 1
+	sAMAccountName: Domain Controllers
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	gidNumber: 10009
+
+dn: CN=Domain Guests,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Domain Guests
+	description: All domain guests
+	distinguishedName: CN=Domain Guests,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060537.0Z
+	whenChanged: 20110223085008.0Z
+	uSNCreated: 12347
+	memberOf: CN=Guests,CN=Builtin,DC=nas-test,DC=ad
+	uSNChanged: 844364
+	name: Domain Guests
+	objectGUID: ˙ÿJ',2I¢§÷[˝≠
+	objectSid: 
+	sAMAccountName: Domain Guests
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	msSFU30Name: Domain Guests
+	msSFU30GidNumber: 10003
+	msSFU30NisDomain: nas-test
+	gidNumber: 10003
+	memberUid: nas
+
+dn: CN=Domain Users,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Domain Users
+	description: All domain users
+	distinguishedName: CN=Domain Users,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060537.0Z
+	whenChanged: 20110223085008.0Z
+	uSNCreated: 12344
+	memberOf: CN=Users,CN=Builtin,DC=nas-test,DC=ad
+	uSNChanged: 844365
+	name: Domain Users
+	objectGUID: µQ"À§S¿Lí¥lG:.L
+	objectSid: 
+	sAMAccountName: Domain Users
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	msSFU30Name: Domain Users
+	msSFU30NisDomain: nas-test
+	gidNumber: 10006
+
+dn: CN=Enterprise Admins,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Enterprise Admins
+	description: Designated administrators of the enterprise
+	member: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	distinguishedName: CN=Enterprise Admins,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060536.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12335
+	memberOf: CN=Administrators,CN=Builtin,DC=nas-test,DC=ad
+	uSNChanged: 747604
+	name: Enterprise Admins
+	objectGUID: ûØ›Èﬂ"Gáôb Ü9˚
+	objectSid: 
+	adminCount: 1
+	sAMAccountName: Enterprise Admins
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	gidNumber: 10011
+
+dn: CN=Group Policy Creator Owners,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Group Policy Creator Owners
+	description: Members in this group can modify group policy for the domain
+	member: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	distinguishedName: CN=Group Policy Creator Owners,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060538.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12350
+	uSNChanged: 747606
+	name: Group Policy Creator Owners
+	objectGUID: wKak9Aû4fZç…Ÿâ
+	objectSid: 
+	sAMAccountName: Group Policy Creator Owners
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	gidNumber: 10013
+
+dn: CN=Guest,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: Guest
+	description: Built-in account for guest access to the computer/domain
+	distinguishedName: CN=Guest,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609054338.0Z
+	whenChanged: 20110211023017.0Z
+	uSNCreated: 8195
+	memberOf: CN=Guests,CN=Builtin,DC=nas-test,DC=ad
+	uSNChanged: 747614
+	name: Guest
+	objectGUID: ∞5zG;¡iFπ¶[T3&‹
+	userAccountControl: 66082
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 0
+	primaryGroupID: 514
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: Guest
+	sAMAccountType: 805306368
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	uid: Guest
+	uidNumber: 10001
+	gidNumber: 0
+	unixHomeDirectory: /export/home/Guest
+	loginShell: /usr/bin/nassh
+
+dn: CN=krbtgt,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: krbtgt
+	description: Key Distribution Center Service Account
+	distinguishedName: CN=krbtgt,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060535.0Z
+	whenChanged: 20110211023017.0Z
+	uSNCreated: 12320
+	uSNChanged: 747617
+	showInAdvancedViewOnly: TRUE
+	name: krbtgt
+	objectGUID: ÿ«õ—‡~&OèªÃ{q
+	userAccountControl: 514
+	badPwdCount: 1
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 129253948731406250
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129205371359062500
+	primaryGroupID: 513
+	objectSid: 
+	adminCount: 1
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: krbtgt
+	sAMAccountType: 805306368
+	servicePrincipalName: kadmin/changepw
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	uid: krbtgt
+	uidNumber: 10004
+	gidNumber: 10006
+	unixHomeDirectory: /export/home/krbtgt
+	loginShell: /usr/bin/nassh
+
+dn: CN=RAS and IAS Servers,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: RAS and IAS Servers
+	description: Servers in this group can access remote access properties of users
+	distinguishedName: CN=RAS and IAS Servers,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060538.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12353
+	uSNChanged: 747610
+	name: RAS and IAS Servers
+	objectGUID: ›xY_§HªÊ5‰∂	Oî
+	objectSid: 
+	sAMAccountName: RAS and IAS Servers
+	sAMAccountType: 536870912
+	groupType: -2147483644
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	dSCorePropagationData: 20100614125244.0Z
+	dSCorePropagationData: 16010101000001.0Z
+	gidNumber: 10017
+
+dn: CN=Schema Admins,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Schema Admins
+	description: Designated administrators of the schema
+	member: CN=Administrator,CN=Users,DC=nas-test,DC=ad
+	distinguishedName: CN=Schema Admins,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20100609060536.0Z
+	whenChanged: 20110211023016.0Z
+	uSNCreated: 12332
+	uSNChanged: 747611
+	name: Schema Admins
+	objectGUID: Í˝áP¿√8MÇ{ø—È„ã
+	objectSid: 
+	adminCount: 1
+	sAMAccountName: Schema Admins
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	isCriticalSystemObject: TRUE
+	gidNumber: 10018
+
+dn: CN=Usergroup,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: group
+	cn: Usergroup
+	distinguishedName: CN=Usergroup,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110214082256.0Z
+	whenChanged: 20110214082304.0Z
+	uSNCreated: 748226
+	uSNChanged: 748230
+	name: Usergroup
+	objectGUID: [ïˆMË¨@Ø=qP·Œ∑
+	objectSid: 
+	sAMAccountName: Usergroup
+	sAMAccountType: 268435456
+	groupType: -2147483646
+	objectCategory: CN=Group,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	msSFU30Name: Usergroup
+	msSFU30NisDomain: nas-test
+	gidNumber: 610022
+
+dn: CN=voice,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: voice
+	givenName: voice
+	distinguishedName: CN=voice,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20101123032110.0Z
+	whenChanged: 20101228131852.0Z
+	displayName: voice
+	uSNCreated: 70111
+	memberOf: CN=Domain Admins,CN=Users,DC=nas-test,DC=ad
+	uSNChanged: 286938
+	name: voice
+	objectGUID: ˝Û7Ò-†A¶J“Wﬂ%ˆN
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 129375569241562500
+	pwdLastSet: 129380159326093750
+	primaryGroupID: 513
+	objectSid: 
+	adminCount: 1
+	accountExpires: 9223372036854775807
+	logonCount: 3
+	sAMAccountName: voice
+	sAMAccountType: 805306368
+	userPrincipalName: voice@nas-test.ad
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	unixUserPassword: ABCD!efgh12345$67890
+	uid: voice
+	msSFU30Name: voice
+	msSFU30NisDomain: nas-test
+	uidNumber: 10010
+	gidNumber: 102
+	unixHomeDirectory: /home/voice
+	loginShell: /bin/sh
+
+dn: CN=voicetest,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: voicetest
+	givenName: voicetest
+	distinguishedName: CN=voicetest,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110111054723.0Z
+	whenChanged: 20110118131620.0Z
+	displayName: voicetest
+	uSNCreated: 321636
+	uSNChanged: 336331
+	name: voicetest
+	objectGUID: ¶NØ‘?¶ÕH¥ÅÇIlË#
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 0
+	lastLogoff: 0
+	lastLogon: 0
+	pwdLastSet: 129398301808906250
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 0
+	sAMAccountName: voicetest
+	sAMAccountType: 805306368
+	userPrincipalName: voicetest@nas-test.ad
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	unixUserPassword: ABCD!efgh12345$67890
+	uid: voicetest
+	msSFU30Name: voicetest
+	msSFU30NisDomain: nas-test
+	uidNumber: 40019
+	gidNumber: 10005
+	unixHomeDirectory: /home/voicetest
+	loginShell: /bin/sh
+
+dn: CN=z,CN=Users,DC=nas-test,DC=ad
+	objectClass: top
+	objectClass: person
+	objectClass: organizationalPerson
+	objectClass: user
+	cn: z
+	sn: b
+	givenName: a
+	distinguishedName: CN=z,CN=Users,DC=nas-test,DC=ad
+	instanceType: 4
+	whenCreated: 20110217101642.0Z
+	whenChanged: 20110217112941.0Z
+	displayName: c
+	uSNCreated: 842980
+	uSNChanged: 843055
+	name: z
+	objectGUID: ]—ùI,zFìøôyYZSU
+	userAccountControl: 512
+	badPwdCount: 0
+	codePage: 0
+	countryCode: 0
+	badPasswordTime: 129424132396562500
+	lastLogoff: 0
+	lastLogon: 129429155587343750
+	pwdLastSet: 129424114025156250
+	primaryGroupID: 513
+	objectSid: 
+	accountExpires: 9223372036854775807
+	logonCount: 1
+	sAMAccountName: z
+	sAMAccountType: 805306368
+	userPrincipalName: z@nas-test.ad
+	objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=nas-test,DC=ad
+	uid: z
+	uidNumber: 10017
+	gidNumber: 10006
+	unixHomeDirectory: /export/home/b
+	loginShell: /usr/bin/nassh
